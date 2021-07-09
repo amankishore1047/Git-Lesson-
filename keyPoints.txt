@@ -1,0 +1,35 @@
+For setting up the username :- git config --global user.name "Aman Kishore"
+For setting up the email :- git config --global user.email "amankishorepaul@gmail.com"
+
+ls -a -> to check wether the the git repo is being created or not.
+
+
+1.  git init -> this is for initilising the git repository or we can initialise the project folder as repository.
+
+
+2.  git status -> helps to check the status.
+
+3.  git add filename -> it helps to add the file to the staging area.
+ (OR)   git add . -> all the untraced or the modified files will come to staging area.
+
+4.  git commit -m "initial commit" -> it is for commiting the file to git.
+
+5.  git log -> to check all the old commits or previous commit.
+
+6.  git checkout hashcode -> it will help us to go to the file before commit.
+
+7.  git checkout master -> back to present.
+
+
+Branch concept.
+
+8.  git branch branchname -> new branch 'branchname' is created.
+9.  git branch -> it will display all the branch name.
+10. git checkout branchname -> it will switch the branch to branchname.
+11. git checkout -b branchname -> new branch will be created and checkout to that new branch.
+12. git merge branchname -> it will merge the branchname to the current branch.
+
+Files which you dont want to post t the git echo system.
+
+13. touch .gitignore -> a new giignore file will be created.
+    if we write file name in the .gitignore file then it will not be visible to git.
