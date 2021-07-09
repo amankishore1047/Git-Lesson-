@@ -33,3 +33,8 @@ Files which you dont want to post t the git echo system.
 
 13. touch .gitignore -> a new giignore file will be created.
     if we write file name in the .gitignore file then it will not be visible to git.
+
+
+GITHUB
+
+1.  git remote -v -> to check the github repo from where we have to feth the data or to push data. 
